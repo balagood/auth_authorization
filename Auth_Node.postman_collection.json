@@ -88,7 +88,7 @@
           "raw": ""
         },
         "url": {
-          "raw": "{{base_url}}/auth/6980bb91e8f69033a33af059",
+          "raw": "{{base_url}}/auth/",
           "host": [
             "{{base_url}}"
           ],

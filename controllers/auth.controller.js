@@ -60,7 +60,7 @@ export const login = async (req,res) =>{
 
 
 export const getId = async(req,res)=>{
-    const userDetailById = await User.findById(req.params.id)
+    const userDetailById = await User.findById(req.user.id)
    
     if(!userDetailById){
         res.status(404)
